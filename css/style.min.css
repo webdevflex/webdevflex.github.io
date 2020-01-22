@@ -4928,7 +4928,7 @@ input[type=number] {
     display: -ms-flexbox;
     display: flex;
   }
-}
+
 
 .menu {
   padding-top: 0;
@@ -4966,7 +4966,7 @@ input[type=number] {
   left: 20px;
   bottom: 20px;
 }
-
+}
 @media (max-width: 1340px) {
   .header__map svg {
     width: 500px;
