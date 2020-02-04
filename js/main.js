@@ -12,6 +12,12 @@ $(function(){
     slidesToShow: 4,
     slidesToScroll: 4,
     asNavFor: '.header__slider',
+    responsive: [
+      {
+        breakpoint: 961,
+        settings:"unslick"
+      },    
+    ]
   });
   
   $('.surf-slider').slick({
@@ -20,6 +26,36 @@ $(function(){
     prevArrow:'<img class="slider-arrows slider-arrows__left" src="images/arrows-left.svg" alt=""></img>',
     nextArrow:'<img class="slider-arrows slider-arrows__right" src="images/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-map',
+    responsive: [
+      {
+        breakpoint: 1210,
+        settings: {
+          slidesToShow: 3,
+          // slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            
+          }
+        },
+        {
+          breakpoint: 720,
+            settings: {
+              slidesToShow: 1,
+              centerMode: true,
+            }
+       },
+       {
+        breakpoint: 426,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+        }
+     },  
+    ]
   });
 
 
@@ -28,10 +64,32 @@ $(function(){
     slidesToScroll:1,
     arrows: false,
     asNavFor: '.surf-slider',
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 1102,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+      breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          centerMode: true,
+        }
+      },
+      {
+        breakpoint: 720,
+          settings: {
+            slidesToShow: 1,
+            centerMode: true,
+          }
+        },     
+    ]
   });
 
-  $('.holder__slider,b .shop__slider').slick({
+  $('.holder__slider, .shop__slider').slick({
     infinite: true,
     fade: true,
     prevArrow:'<img class="slider-arrows slider-arrows__left" src="images/arrows-left.svg" alt=""></img>',
@@ -90,6 +148,7 @@ $(function(){
     // здесь рассчитывает сумму с исходными значениями !
     $('.quantity').each(function() {
     var parents = $(this).parents('.holder-slider__info');
+
     let summ = $('.summ', parents).data('nights') * $('.nights', parents).val() + $('.summ', parents).data('guests') * $('.guests', parents).val();
      $('.summ', parents).html('$ ' + summ + ' USD');
     });
@@ -98,6 +157,10 @@ $(function(){
 
   $('.surfboard-box__circle').on('click',function(){
     $(this).toggleClass('active');
+  });
+
+  $('.menu-btn').on('click', function(){
+    $('.menu').toggleClass('active');
   });
 
 });
