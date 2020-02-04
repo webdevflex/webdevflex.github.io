@@ -4929,6 +4929,9 @@ input[type=number] {
   max-width: 100%;
  height: auto;
 }
+.footer__copy .addition{
+  text-align: center;
+}
 
 
 @media (max-width: 1440px) {
@@ -5535,6 +5538,9 @@ input[type=number] {
   }
   .holder-slider__info-title .holder-pricing__span {
     bottom: 0;
+  }
+  .addition_container{
+    margin-bottom: 20px;
   }
 }
 
