@@ -4903,6 +4903,34 @@ input[type=number] {
   font-weight: 300;
 }
 
+
+.addition_container{
+  max-width: 1000px;
+  margin:0 auto 150px;
+
+}
+
+.addition_container h1{
+  color:white;
+  text-align: center;
+}
+.addition{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.addition__item{
+  width: 360px;
+ 
+}
+
+.addition__item img{
+  max-width: 100%;
+ height: auto;
+}
+
+
 @media (max-width: 1440px) {
   .logo img {
     width: 100px;
@@ -5332,6 +5360,9 @@ input[type=number] {
     padding-top: 60px;
     padding-bottom: 10px;
   }
+  .addition_container a{
+    margin: 20px;
+  }
 }
 
 @media (max-width: 820px) {
@@ -5513,6 +5544,18 @@ input[type=number] {
     display: block;
     width: 250px;
     padding: 28px 15px 0;
+  }
+
+  .addition_container h1{
+    font-size: 6vw;
+  }
+  .addition__item{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .addition__item img{
+  
   }
 }
 
