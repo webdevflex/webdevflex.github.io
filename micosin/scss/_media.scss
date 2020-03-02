@@ -1,0 +1,428 @@
+// ------------2560---------------
+@media(max-width:2560px){
+  .logo{
+    span{
+      display: none;
+    }
+  }
+}
+// ------------2560------end---------
+
+// ------------1920---------------
+@media(max-width:1920px){
+  .header__opacity{
+    // height: 80%;
+    height: 679px;
+  }
+  .header__title-wrapper{
+    max-height: 800px;
+    margin-left: 180px;
+    align-content: flex-end;
+  }
+  .header__title{
+    padding-top: 20px;
+  }
+  .header__bg-item{
+    max-width: 650px;
+    img{
+      width: 100%;
+    }
+  }
+  .header__form {
+    padding-top: 17px;
+  }
+  #rotate_270{
+    max-width: 450px;
+    img{
+      width:100%
+    }
+  }
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    span{
+      display: none;
+    }
+   
+  }
+  .logo__item{
+    padding-bottom: 17px;
+  }
+  .logo__img{
+    left: -6px;
+    position: relative;
+    top: 8px;
+  }
+  .top_advantage .name_tabl{
+    padding-left: 11px;
+  }
+.header__wave{
+  img{
+    width: 100%;
+  }
+}
+#rotate_270:after{
+  top: -46px;
+  left: -64px;
+  width: 507px;
+  height: 491px;
+}
+
+.tabl-mik{
+  top: 359px;
+  left: 84px;
+}
+
+
+
+.disease_descr-title{
+  padding-bottom: 30px;
+}
+
+}
+// ------------1920-------end--------
+
+// ------------1440---------------
+@media(max-width:1440px){
+  .container{
+    max-width: 1240px;
+  }
+  .logo{
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    span{
+      display: inline-block;
+    }
+  }
+  .top_advantage .name_tabl{
+    display: none;
+  }
+  .header__title-wrapper{
+    all: initial;
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .header__form {
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 159%;
+    left: 60%;
+}
+.footer_statis{
+  width: initial;
+}
+.header__title{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  padding-left: 14px;
+  padding-right: 152px;
+  width: 36%;
+  
+}
+.header__subtitle{
+  margin: 0;
+  padding-top: 100px;
+  width: 29%;
+}
+
+.header__bg-item{
+  max-width: 420px;
+}
+
+#rotate_270{
+  max-width: 346px;
+}
+
+#rotate_270:after {
+    top: -22px;
+    left: -20px;
+    width: 362px;
+    height: 366px;
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -19px;
+    width: 360px;
+    height: 360px;
+    border-left: 15px solid white;
+    border-right: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid white;
+    border-radius: 50%;
+    -webkit-transform: rotate(77deg);
+    -ms-transform: rotate(77deg);
+    transform: rotate(-96deg);
+
+
+}
+
+.tabl__wrapper{
+  padding-left: 250px;
+}
+
+.item_number{
+  bottom: 140px;
+}
+.header{
+  background-size: initial;
+}
+
+.form{
+  width: 84%;
+  margin-bottom: 80px;
+  legend{
+    background-color: initial;
+  }
+  fieldset{
+    padding-bottom: 16px;
+  }
+}
+.foter_disease_statis{
+width:50%;
+}
+
+.number.size{
+  margin-top: 40px;
+}
+.form_arrow {
+  position: absolute;
+  left: 370px;
+  top: 170px;
+}
+
+.form input{
+  width: 60%;
+}
+
+.disease_descr-item{
+  margin-bottom: 50px;
+}
+
+}
+// ------------1440-------end--------
+
+// ------------1024---------------
+@media(max-width:1024px){
+  .container {
+    max-width: 990px;
+}
+.logo{
+  width: 90%;
+  margin: 0 auto;
+}
+.header__title-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabl__item:nth-child(5){
+  display: none;
+}
+.header__title{
+  width: 50%;
+    margin-right: 190px;
+    height: 227px;
+    padding-top: 91px;
+    padding-left: 61px;
+}
+.header__subtitle{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 228px;
+}
+
+.item_number{
+  img{
+    display: none;
+  }
+}
+
+.tabl__item{
+ span{
+  right: 64px;
+  top: -8px;
+  font-size: 26px;
+}
+  &:nth-child(1){
+   img{
+      max-width: 50%;
+      }
+    }
+  &:nth-child(2){
+      img{
+        max-width: 80%;
+      }
+    }
+   &:nth-child(3){
+      top: 211px;
+      left: 29px;
+      img{
+        max-width: 66%;
+      }
+  }
+    &:nth-child(4){
+      span{
+        right: 177px;
+        top: -8px;
+      }
+      img{
+        max-width: 60%;
+      }
+    }
+  &:nth-child(1){
+      left: 221px;
+    }
+  
+}
+  .disease_item{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .s_line{
+    top:259px;
+  }
+  .header__form{
+    top: 100rem;
+  }
+  .form_arrow{
+    left: 259px;
+  }
+
+  .foter_disease_statis{
+    padding-left: 40px;
+  }
+
+}
+// ------------1024-------end--------
+
+// ------------768---------------
+@media(max-width:768px){
+  header{
+    height: initial;
+  }
+  .header{
+    height: initial;
+  }
+  .header__subtitle{
+    display: flex;
+    flex-direction: column;
+    padding: 0 41px;
+    padding-top: 96px;
+  }
+  .number.size{
+    margin: 0;
+  }
+  .disease_descr-title{
+    font-size: 7vw;
+  }
+  .disease_descr .disease_descr-subtitle{
+    padding: 0 15px;
+    font-size: 20px;
+  }
+  .s_line{
+    display: none;
+  }
+  .header__form{
+    top: 110rem;
+  }
+  .form_arrow{
+    left: 168px;
+  }
+  .foter_disease_statis{
+    padding-bottom: 145px;
+  }
+  .header__feet{
+    left:378px;
+  }
+  #rotate_270:after{
+    transform: rotate(-90deg);
+  }
+  .header__title{
+    padding-right: 224px;
+  }
+}
+// ------------768----end-----------
+
+// -----------425---------------
+@media(max-width:425px){
+  #rotate_270{
+    display: none;
+  }
+  .header__bg-item{
+    img{
+      width: 73%;
+    }
+    left:111px;
+  }
+.top_advantage{
+  display: none;
+}
+.tabl-mik .tabl__item:nth-child(2){
+  left: -268px;
+  top:-88px;
+  img{
+    max-width:300px;
+  }
+ }
+ .header__title{
+  font-size: 30px;
+}
+.header__opacity{
+ background:linear-gradient(to left, #f1f9ff 0%, #f1f9ff00 61%, rgba(241,249,255,0.580392) 100%);
+}
+
+.tabl__item:nth-child(4){
+  span{
+    display: none;
+  }
+}
+.disease_descr-item{
+  flex-wrap: wrap;
+}
+.disease_item{
+  width: 100%;
+}
+.header__form{
+  left:60px;
+  top:185rem;
+ 
+}
+.footer_statis{
+  margin: 0 auto;
+  width: 19%;
+  padding: 30px 60px;
+}
+.foter_disease_statis{
+  width: 100%;
+  padding: 0;
+}
+.disease_item-subtitle{
+  margin-bottom: 10px;
+ }
+}
+// -----------425-------end--------
+
+// -----------375---------------
+@media(max-width:375px){
+.header__form{
+  top:190rem;
+ }
+}
+// -----------375-------end--------
+
+// -----------320---------------
+@media(max-width:325px){
+  .header__form{
+    top: 216rem;
+    left: 40px;
+   }
+  }
+  // -----------320------end---------
