@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'ProxinaNova';
+	src: url('../fonts/ProxinaNova.eot');
+  src: local('☺'), 
+  url('../fonts/ProxinaNova.woff') format('woff'), 
+  url('../fonts/ProxinaNova.ttf') format('truetype'), 
+  url('../fonts/ProxinaNova.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Bold.woff') format('woff'),
+  url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Intro';
+    src: url('../fonts/Intro.eot');
+    src: local('☺'), 
+    url('../fonts/Intro.woff') format('woff'), 
+    url('../fonts/Intro.ttf') format('truetype'), 
+    url('../fonts/Intro.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+      font-family: 'Intro-Bold';
+      src: url('../fonts/Intro-Bold.eot');
+      src: local('☺'), 
+      url('../fonts/Intro-Bold.woff') format('woff'), 
+      url('../fonts/Intro-Bold.ttf') format('truetype'), 
+      url('../fonts/Intro-Bold.svg') format('svg');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+  @font-face {
+    font-family: 'Intro-Black-Italic';
+    src: url('../fonts/Intro-Black-Italic.eot');
+    src: local('☺'), 
+    url('../fonts/Intro-Black-Italic.woff') format('woff'),
+    url('../fonts/Intro-Black-Italic.ttf') format('truetype'),
+    url('../fonts/Intro-Black-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'intro__bold';
+    src: url('../fonts/intro__bold.eot');
+    src: local('☺'),
+     url('../fonts/intro__bold.woff') format('woff'), 
+     url('../fonts/intro__bold.ttf') format('truetype'), 
+     url('../fonts/intro__bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    }
