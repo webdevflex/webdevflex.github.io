@@ -4905,7 +4905,7 @@ input[type=number] {
 
 
 .addition_container{
-  max-width: 1000px;
+  max-width: 1500px;
   margin:0 auto 150px;
 
 }
@@ -4921,13 +4921,14 @@ input[type=number] {
 }
 
 .addition__item{
-  width: 360px;
+  width: 637px;
+  height: 318px;
  
 }
 
 .addition__item img{
   max-width: 100%;
- height: auto;
+  height: 100%;
 }
 .footer__copy .addition{
   text-align: center;
