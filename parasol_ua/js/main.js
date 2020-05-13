@@ -4,7 +4,6 @@ $(".btn-lang").click(function(e) {
   $(".btn-lang").removeClass('active');
   $(this).addClass('active');
 })
-
 $(document).ready(function() {
 	$('.btn').click(function(event) {
 		$('.top__excerption-block').removeClass('active')
@@ -12,7 +11,6 @@ $(document).ready(function() {
 		$('#test'+num).addClass('active')
 	});
 });
-
 	$(".btn").click(function(e) {
 		e.preventDefault();
 		$(".btn").removeClass('active');
@@ -22,7 +20,6 @@ $(document).ready(function() {
 $('.slider-comment').slick({
 	dots:true
 });
-
 //slider news
 $('.news__slider').slick({
 	slidesToScroll: 1,
@@ -75,7 +72,6 @@ $(function()
 {
 	$('.scroll__conatainer').jScrollPane();
 });
-
 //добавление класса при клике
 $('.burger__area, .header__menu').click(function(){
     $('.header__menu').toggleClass('menu_opened');
@@ -90,7 +86,6 @@ $('.burger__area').click(function(){
       $('.header__menu, .burger__menu').removeClass('menu_opened active_burger');
       event.stopPropagation();
   });
-
 
 //при скроле удаляем класс который добавляеться для показа меню
     $(window).scroll(function(){

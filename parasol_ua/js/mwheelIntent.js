@@ -3,7 +3,6 @@
  * @version 1.2
  */
 (function($){
-
     var mwheelI = {
                 pos: [-260, -260]
             },

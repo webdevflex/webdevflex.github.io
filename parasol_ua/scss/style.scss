@@ -99,11 +99,8 @@ a{
       font-weight: 600;
     }
   }
-
 }
-
 // header menu--------end---------------
-
 //burger menu
 .burger__menu{
   width: 40px;
@@ -116,9 +113,7 @@ a{
   border-radius: 10px;
   transition: all .3s ease-in-out;
   position: absolute;
-
   display: none;
-
   &::before{
     position: absolute;
     content: '';
@@ -183,11 +178,6 @@ a{
 
 
 
-
-
-
-
-
 //plus-----------
 .header__plus{
   background-image: url(../img/header-bg.svg);
@@ -225,7 +215,6 @@ a{
   }
 }
 //plus-------end----
-
 //insurance types-----------
 .header__types-ins{
   display: flex;
@@ -263,7 +252,6 @@ a{
     padding-left: 20px;
     line-height: 24px;
   }
-
   .title{
     font-weight: bold;
     color:  #2A2A2A;
@@ -272,13 +260,11 @@ a{
     padding-left: 0;
    
   }
-
   img{
     padding-left: 20px;
     padding-right: 13px;
     padding-bottom: 15px; 
   }
-
   .arrows{
       position: absolute;
       right: 0;
@@ -289,7 +275,6 @@ a{
     }
   }
 //insurance types----end-------
-
 //section info--------
 .info{
   background: #E1E5F8;
@@ -327,7 +312,6 @@ a{
   font-weight: bold;
 }
 //section info---end-----
-
 //section top excerption---------
 .top__excerption{
   background:#F4F5F7;
@@ -340,7 +324,6 @@ a{
   font-size: 30px;
   margin-bottom: 45px;
 }
-
 .excerption-list{
   display: flex;
   margin-bottom: 30px;
@@ -390,7 +373,6 @@ a{
   border-radius: 5px;
   // margin-left: 8px;
   margin-bottom: 10px;
-
   button{
     color: #2B5FAE;
     font-size: 14px;
@@ -437,16 +419,11 @@ a{
     }
 }
 //excerption-item-------end-----------
-
 //city list
 
 
 
-
-
-
 //excerption-item--------end----------
-
 //section city--------------------------------
 .city{
   display: flex;
@@ -460,7 +437,6 @@ a{
   height: 255px;
   position: relative;
   margin-bottom: 20px;
-
   img{
     position: absolute;
   }
@@ -524,7 +500,6 @@ a{
   }
 }
 //section city----------end----------------------
-
 //section car 
 .exc-car{
   background-color: #F4F5F7;
@@ -536,7 +511,6 @@ a{
     border-radius: 10px;
     background-color: #FFFFFF;
  
-
     .exc-car__item{
       width: 192px;
       height: 81px;
@@ -581,7 +555,6 @@ a{
         }
       }
     }
-
   }
 }
 //
@@ -605,7 +578,6 @@ a{
     width: 289px;
     padding: 0;
     display: block;
-
   }
   ul{
     display: flex;
@@ -664,9 +636,7 @@ a{
   position: absolute;
   bottom: -32px;
 }
-
 //slider-----------------
-
 // ***slider setting**
 .slider-comment{
   position: relative;
@@ -705,9 +675,7 @@ align-items: center;
 position: absolute;
 left: 50%;
 top: 80%;
-
 }
-
 .news__slider .slick-dots{
   display: flex;
   justify-content: center;
@@ -744,9 +712,7 @@ top: 80%;
   margin-left: 5px;
   margin-right: 5px;
   cursor: pointer;
-
 }
-
 .news__slider .slick-dots button{
   font-size: 0;
    width: 10px;
@@ -762,12 +728,10 @@ top: 80%;
  
  }
 
-
 .slider{
   background-color: #ffffff;
   // margin-bottom: 300px;
 }
-
 .slider-comment__item{
   display: flex!important;
   justify-content: center;
@@ -824,7 +788,6 @@ top: 80%;
    
   }
 }
-
 //news slider
 .news{
   padding-bottom: 50px;
@@ -853,7 +816,6 @@ top: 80%;
     }
   }
   
-
   &__slider-item{
     width: 258px!important;
     height: 433px;
@@ -898,7 +860,6 @@ top: 80%;
       
     }
   }
-
 }
 .news__text-title{
   margin-bottom:50px;
@@ -940,13 +901,11 @@ top: 80%;
     right: -35px;
   }
 //slider end---------------------
-
 //mass-media
 .massmedia{
   background-color: #E1E5F8;
   // margin-bottom: 100px;
 }
-
 .mass-list{
   display: flex;
   justify-content: space-between;
@@ -966,7 +925,6 @@ top: 80%;
   flex-wrap: wrap;
   justify-content: center;
   .subbtitle{
-
     // display: block;
     padding-left: 25px;
     height: 126px;
@@ -1025,7 +983,6 @@ top: 80%;
   height: 0;
 }
 
-
 //scroll plagin-------------------------------
 .scroll__conatainer{
   height: 90px;
@@ -1037,9 +994,7 @@ top: 80%;
   line-height: 1.6;
  
 }
-
 //scroll plagin----------end-----------------------------
-
 //more_reviews-----------------
 .more_reviews{
   font-size: 16px;
@@ -1061,7 +1016,6 @@ top: 80%;
   width: 103px;
 }
 //more_reviews------end-----------
-
 //questionsAnswers
 .questions{
   margin-bottom: 35px;
@@ -1125,7 +1079,6 @@ top: 80%;
 }
 //online description
 .description {
-
 .title {
   font-size: 30px;
   font-weight: bold;
@@ -1159,7 +1112,6 @@ top: 80%;
       background: linear-gradient( rgba(245, 242, 242, 0.24), whitesmoke );
       pointer-events: none;
     } */
-
 }
 .hiden {
 }
@@ -1180,7 +1132,6 @@ top: 80%;
   margin: 0 auto;
   position: relative;
 }
-
 .footer_partners{
   display: flex;
   justify-content: space-between;
@@ -1207,7 +1158,6 @@ top: 80%;
 .footer_container {
   display: flex;
   justify-content: space-between;
-
 }
 .footer__item{
  
@@ -1223,11 +1173,9 @@ top: 80%;
   }
   
 }
-
 .footer_menu {
   line-height: 1.9;
   }
-
   .suport li{
     display: flex;
     align-items: center;
@@ -1246,7 +1194,6 @@ top: 80%;
    font-weight: bold;
   }
 
-
 .reviews-title{
   .name{
     display: none;
@@ -1257,18 +1204,9 @@ top: 80%;
 
 
 
-
-
-
-
-
-
 @import "media";
 
-
-
 //scroll design
-
 // ::-webkit-scrollbar - фон прокрутки
 // ::-webkit-scrollbar-button адреса кнопок со стрелками на полосе прокрутки
 // ::-webkit-scrollbar-track адрес пустого места «под» индикатором выполнения
@@ -1276,7 +1214,6 @@ top: 80%;
 // ::-webkit-scrollbar-thumb обращается к перетаскиваемому элементу прокрутки, размер которого изменяется в зависимости от размера прокручиваемого элемента
 // ::-webkit-scrollbar-corner адрес (обычно) нижнего угла прокручиваемого элемента, где могут встречаться две полосы прокрутки
 // ::-webkit-resizerобращается к перетаскиваемой ручке изменения размера, которая появляется над scrollbar-cornerнижним углом некоторых элементов
-
 // ::-webkit-scrollbar              { /* 1 - скроллбар */ }
 // ::-webkit-scrollbar-button       { /* 2 - кнопка */ }
 // ::-webkit-scrollbar-track        { /* 3 - трек */ }
@@ -1284,25 +1221,14 @@ top: 80%;
 // ::-webkit-scrollbar-thumb        { /* 5 - ползунок */ }
 // ::-webkit-scrollbar-corner       { /* 6 - уголок */ }
 // ::-webkit-resizer                { /* 7 - изменение размеров */ }
-
 // :horizontal — применяется к любому скроллбару, который имеет горизонтальную ориентацию.
-
 // :vertical — применяется к любому скроллбару, который имеет вертикальную ориентацию.
-
 // :decrement — применяется к кнопкам и к видимой части трека, сообщает, что нет кнопок или видимая часть трека уменьшена в процессе использования (вверх для вертикального скроллбара и влево для горизонтального).
-
 // :increment — применяется к кнопкам и к видимой части трека, сообщает, что нет кнопок или видимая часть трека увеличена в процессе использования (вниз для вертикального скроллбара и вправо для горизонтального).
-
 // :start — применяется к кнопкам и к видимой части трека, сообщает, что объект находится перед ползунком.
-
 // :end — применяется к кнопкам и к видимой части трека, сообщает, что объект находится после ползунка.
-
 // :double-button — применяется к кнопкам и к видимой части трека, используется для определения того, что кнопка является частью пары кнопок, которые находятся вместе в конце скроллбара. Для видимой части трека сообщает, что она примыкает к паре кнопок.
-
 // :single-button — применяется к кнопкам и к видимой части трека, используется для определения того, что кнопка в конце скроллбара единственная. Для видимой части трека сообщает, что он примыкает к этой единственной кнопке.
-
 // :no-button — применяется к видимой части трека, сообщает, что видимая часть трека приближается к краю скроллбара, другими словами, нет кнопки в конце трека.
-
 // :corner-present — применяется ко всем элементам скроллбара и сообщает, что имеется уголок.
-
 // :window-inactive — применяется ко всем элементам скроллбара и сообщает, что окно со скроллбаром в данный момент активно. В последних версиях этот псевдокласс хорошо сочетается с ::selection. Мы планируем расширить его работу для любого контента и предложить в качестве нового стандартного псевдокласса.

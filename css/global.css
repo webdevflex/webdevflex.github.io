@@ -2,14 +2,12 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
-
 body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -18,25 +16,21 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-
 a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
 }
-
 ul,
 li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .container {
   max-width: 1920px;
   margin: 0 auto;
 }
-
 .headline-left {
   font-size: 22px;
   line-height: 32px;
@@ -48,7 +42,6 @@ li {
   padding-left: 103px;
   position: relative;
 }
-
 .headline-left::before {
   content: "";
   position: absolute;
@@ -58,7 +51,6 @@ li {
   left: 0;
   top: 50%;
 }
-
 .title span {
   font-size: 200px;
   color: rgba(255, 255, 255, 0.02);
@@ -69,7 +61,6 @@ li {
           transform: translateX(-50px);
   display: inline-block;
 }
-
 .title h3 {
   position: absolute;
   top: 0;
@@ -78,7 +69,6 @@ li {
   color: #fff;
   font-size: 80px;
 }
-
 .title h3::after {
   content: '';
   position: absolute;
@@ -88,18 +78,15 @@ li {
   height: 1px;
   background-color: #52F6CD;
 }
-
 .subtitle {
   display: inline-block;
   text-align: right;
 }
-
 .subtitle__head {
   font-weight: 800;
   font-size: 40px;
   padding-right: 10px;
 }
-
 .subtitle__head span {
   font-weight: 100;
 }
