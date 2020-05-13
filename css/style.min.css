@@ -5602,4 +5602,7 @@ input[type=number] {
   .surfboard__position--3 .surfboard-box__content {
     left: 33px;
   }
+  .title div{
+    display: block;
+  }
 }
