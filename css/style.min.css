@@ -4901,6 +4901,7 @@ input[type=number] {
   letter-spacing: 1.05px;
   opacity: 0.5;
   font-weight: 300;
+ 
 }
 
 
@@ -4939,7 +4940,8 @@ input[type=number] {
   display: flex;
   flex-direction: column;
   align-content: center;
-  height: 342px;
+  height: 350px!important;
+ 
 }
 
 
