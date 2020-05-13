@@ -4913,6 +4913,7 @@ input[type=number] {
 .addition_container h1{
   color:white;
   text-align: center;
+  margin-bottom: 20px;
 }
 .addition{
   display: flex;
