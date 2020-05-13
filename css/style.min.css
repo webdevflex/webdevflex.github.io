@@ -5444,13 +5444,22 @@ input[type=number] {
   .holder-slider__subtitle {
     padding: 100px 20px 0 0;
   }
+  .addition__item{
+    width: initial;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .addition__item img{
+    max-width: 100%;
+    height: auto;
+  }
+  .addition a{
+    margin: 0 0 20px 0;
+  }
 }
 
-/* @media(max-width:640px){
-  .holder-slider__descr{
-    background-image:none!important;
- }
-} */
+
 @media (max-width: 570px) {
   .holder-slider__descr {
     background-position: right -10vw;
