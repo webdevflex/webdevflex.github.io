@@ -4906,8 +4906,9 @@ input[type=number] {
 
 .addition_container{
   max-width: 1500px;
-  margin:0 auto;
-
+  margin-left:auto;
+  margin-right: auto;
+ 
 }
 
 .addition_container h1{
@@ -4920,6 +4921,8 @@ input[type=number] {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 100px;
+ 
+
 }
 
 .addition__item{
@@ -4933,7 +4936,10 @@ input[type=number] {
   height: 100%;
 }
 .footer__copy .addition{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 342px;
 }
 
 
