@@ -4906,7 +4906,7 @@ input[type=number] {
 
 .addition_container{
   max-width: 1500px;
-  margin:0 auto 150px;
+  margin:0 auto;
 
 }
 
@@ -4918,6 +4918,7 @@ input[type=number] {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .addition__item{
