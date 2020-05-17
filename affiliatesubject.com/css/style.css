@@ -365,8 +365,8 @@ section{
     position: relative;
 	/* z-index: 1000; */
 	/* width: 1170px; */
-    /* background: #fff; */
-    background-color:#FAEBD7;
+    background: #fff;
+    /* background-color:#FAEBD7; */
     display: flex;
     flex-wrap: wrap;
     max-width: 61%;
