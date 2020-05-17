@@ -1205,10 +1205,10 @@ picture{
     position: relative;
 }
 .new_rmoney_img .text_top_page_text{
-    left:60px;
+    left:5px;
 }
 .new_rmoney_img .text_top_page_logo{
-    left:70px;
+    left:25px;
 }
 @media (max-width: 1875px){
     .excerpt{
