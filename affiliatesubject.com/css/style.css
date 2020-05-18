@@ -1150,15 +1150,18 @@ picture{
     line-height: 1.3;
    
 }
-/* .point_line:nth-of-type(1){
-   margin-bottom: 10px;
-} */
+.point_list_size .point_line:nth-of-type(3){
+    border:none;
+}
+
 .point_list_size:nth-of-type(2){
     height:150px;
 }
 .point_list_size:nth-of-type(3){
     height:300px;
+    border: none;
 }
+
 .point_list_size:nth-of-type(4){
     height: 150px;
 }
@@ -1210,6 +1213,9 @@ picture{
 }
 .new_rmoney_img .text_top_page_logo{
     left:25px;
+}
+.link_text{
+    word-break: break-word;
 }
 @media (max-width: 1875px){
     .excerpt{
@@ -1754,6 +1760,9 @@ picture{
     }
     .text-reviews h3{
         margin: 0;
+    }
+    .text-reviews p{
+        text-indent: inherit;
     }
 }
 @media (max-width:415px){
