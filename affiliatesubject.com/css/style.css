@@ -560,9 +560,7 @@ width: 100%;
     font-size: 37px;
     font-weight: 700;
 }
-/* .text_top_page .reviews_h1{
-    margin-bottom: 0;
-} */
+
 .text_block{
     /* max-width: 52%; */
     margin-top: 6.4vw;
@@ -1670,7 +1668,9 @@ picture{
         .section_banner img{
             max-width: 100%;
         }
-      
+        .reviews_h1{
+            font-size: 28px;
+        }
 }
 @media (max-width:650px){
     .side_column{
