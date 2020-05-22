@@ -1,0 +1,101 @@
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.flags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flags__item{
+    width: 298px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.flag_ukraine{
+    background-color: #FFD500;
+    &::before{
+        content: '';
+        width: 100%;
+        height: 100px;
+        background-color:#005BBB;
+        position: absolute;
+    }
+}
+.flag_japan{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EAECF0;
+    &::before{
+        content: '';
+        width: 100px;
+        height: 100px;
+        background-color:#DC0000;
+        position: absolute;
+        border-radius: 50%;
+    }
+}
+.flag_iceland{
+    background-color: #DC1E35;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+
+    .flag_iceland__item{
+        background-color:#02529C;
+        width:100px;
+        height:60px;
+        border-right: 10px solid #ffffff;
+        border-bottom: 10px solid #ffffff;
+        margin-right: 20px;
+        &:nth-child(2){
+            border-left: 10px solid #ffffff;
+            border-right: none;
+            width:53%;
+            margin-right: 0;
+        }
+        &:nth-child(3){
+            border-top: 10px solid #ffffff;
+            border-bottom:none;
+            height: 100px; 
+            align-self: flex-end;
+        }
+        &:nth-child(4){
+            border-bottom:none;
+            border-top: 10px solid #ffffff;
+            border-left: 10px solid #ffffff;
+            border-right: none;
+            height: 100px;
+            width:53%;
+            margin-right: 0;
+            align-self: flex-end;
+        }
+    }
+}
+.flag_сzech{
+    display: flex;
+    // align-items: center;
+    flex-wrap: wrap;
+    background-color:#11457E;
+    border-bottom:none;
+}
+.flag_сzech__item{
+        border-top: 100px solid #ffffff; 
+        border-left: 100px solid transparent;
+        width: 300px;
+        height: 100px;
+        position: relative;
+        &::after{
+            content: '';
+        position: absolute;
+        border-bottom: 100px solid red;
+        border-left: 100px solid transparent;
+        width: 198px;
+        left: -100px;     
+        }	
+}
