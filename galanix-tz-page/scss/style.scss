@@ -1,162 +1,159 @@
 @mixin font($font_name, $file_name, $weight, $style) {
-
     @font-face {
-    font-family: $font_name;
-    font-display: swap;
-    src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
-    font-weight: #{$weight};
-    font-style: #{$style};
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+        font-weight: #{$weight};
+        font-style: #{$style};
     }
-    }
+}
 @import "fonts";
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-body{
-    background-color: #E3DBCB;
-    font-family:'oldnewspapertypes';
+body {
+    background-color: #e3dbcb;
+    font-family: "oldnewspapertypes";
     color: #554535;
 }
-.container{
+.container {
     max-width: 1360px;
     margin: 0 auto;
-    
 }
-.header{
+.header {
+    margin-top: 50px;
     background-image: url(../img/header_bg.jpg);
     background-size: cover;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 100px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 50px;
 }
-.title{
+.title {
     display: flex;
     justify-content: space-between;
     position: relative;
     margin-bottom: 30px;
-    &__item{
+    &__item {
         font-size: 20px;
         flex-grow: 1;
         flex-basis: 80px;
-        &:nth-last-of-type(2){
-            font-family: 'dk courant';
+        &:nth-last-of-type(2) {
+            font-family: "dk courant";
             font-size: 90px;
             flex-grow: 8;
             text-align: center;
         }
     }
-    &::before{
-        content:'';
+    &::before {
+        content: "";
         position: absolute;
         width: 100%;
         height: 3px;
         background-color: #554535;
-        top:-40px;
+        top: -40px;
     }
 }
-.title__name-page{
+.title__name-page {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     position: relative;
     font-size: 17px;
     margin-bottom: 50px;
-    &::before{
-        content:'';
+    &::before {
+        content: "";
         position: absolute;
         width: 100%;
         height: 2px;
         background-color: #554535;
         top: -10px;
     }
-    &::after{
-        content:'';
+    &::after {
+        content: "";
         position: absolute;
         width: 100%;
         height: 2px;
         background-color: #554535;
-        bottom:-10px;
+        bottom: -10px;
     }
 }
 
-.news__wrapper{
+.news__wrapper {
     display: flex;
 }
-.news_main{
+.news_main {
     width: 50%;
-    padding-right: 20px; 
+    padding-right: 20px;
 }
-.news_main_title{
+.news_main_title {
     width: 680px;
 }
 
 .news {
 }
 
-.news__title{
-    font-family:'handshoptypography';
+.news__title {
+    font-family: "handshoptypography";
     text-transform: uppercase;
     font-size: 85px;
     text-align: center;
     margin-bottom: 10px;
-    
 }
 .news__subtitle {
     font-weight: bold;
-    font-size:30px;
+    font-size: 30px;
 }
 .news__text {
     font-size: 18px;
-    p{
+    p {
         margin-bottom: 15px;
         width: 100%;
     }
 }
-.news_image{
+.news_image {
     width: 450px;
     float: left;
-    &:nth-child(2){
+    &:nth-child(2) {
         width: 300px;
     }
-    img{
+    img {
         width: 100%;
         padding-right: 20px;
     }
 }
-.news_additional{
+.news_additional {
     display: flex;
 }
-.news_additional__item{
+.news_additional__item {
     padding-left: 10px;
     padding-right: 10px;
     width: 50%;
-    
-    .news_image{
+
+    .news_image {
         width: 100%;
         margin-bottom: 10px;
-        img{
+        img {
             display: block;
             width: 300px;
             margin: 0 auto;
         }
     }
-    .news__subtitle{
+    .news__subtitle {
         text-align: center;
         margin-bottom: 30px;
-       
-           
     }
 }
-.additional_title{
-    font-family:oldnewspapertypes;
+.additional_title {
+    font-family: oldnewspapertypes;
     font-size: 36px;
 }
-.border{
+.border {
     position: relative;
-    &::before{
-        content:'';
+    &::before {
+        content: "";
         position: absolute;
         width: 100%;
         height: 2px;
@@ -164,25 +161,25 @@ body{
         top: -5px;
         left: 0;
     }
-    &::after{
-        content:'';
+    &::after {
+        content: "";
         position: absolute;
         width: 100%;
         height: 2px;
         background-color: #554535;
-        bottom:-10px;
+        bottom: -10px;
         left: 0;
-     }
+    }
 }
-.news_bar{
-    .news__title{
+.news_bar {
+    .news__title {
         font-size: 50px;
     }
-    .news__subtitle{
+    .news__subtitle {
         font-size: 22px;
         position: relative;
-        &::before{
-            content:'';
+        &::before {
+            content: "";
             position: absolute;
             width: 100%;
             height: 2px;
@@ -190,28 +187,28 @@ body{
             top: -5px;
             left: 0;
         }
-        &::after{
-            content:'';
+        &::after {
+            content: "";
             position: absolute;
             width: 100%;
             height: 2px;
             background-color: #554535;
-            bottom:-10px;
+            bottom: -10px;
             left: 0;
-         }
+        }
     }
-    .news__text{
+    .news__text {
         margin-bottom: 40px;
     }
 }
-.news_review{
+.news_review {
     margin-bottom: 50px;
-    .news__title{
+    .news__title {
         font-size: 57px;
         position: relative;
         margin-top: 60px;
-        &::before{
-            content:'';
+        &::before {
+            content: "";
             position: absolute;
             width: 100%;
             height: 5px;
@@ -219,81 +216,78 @@ body{
             top: -25px;
             left: 0;
         }
-        &::after{
-            content:'';
+        &::after {
+            content: "";
             position: absolute;
             width: 100%;
             height: 3px;
             background-color: #554535;
-            bottom:148px;
+            bottom: 148px;
             left: 0;
-         }    
+        }
     }
-    .news_image-star{
+    .news_image-star {
         width: 30px;
     }
-    .news__subtitle{
+    .news__subtitle {
         text-align: center;
         margin-bottom: 20px;
     }
-    .news_image-camera{
+    .news_image-camera {
         width: 240px;
         float: right;
         padding-left: 5px;
         padding-right: 20px;
-    } 
-}
-.news_additional__item-review{
-    .news__subtitle{
-        background-color: #554535;
-        color: #E3CEA1;
-        padding:40px;
     }
 }
-.news_review_next{
-    .news__subtitle{
+.news_additional__item-review {
+    .news__subtitle {
+        background-color: #554535;
+        color: #e3cea1;
+        padding: 40px;
+    }
+}
+.news_review_next {
+    .news__subtitle {
         font-size: 30px;
         position: relative;
         text-transform: uppercase;
         margin-bottom: 25px;
         padding-top: 10px;
-        &::before{
-            content:'';
+        &::before {
+            content: "";
             position: absolute;
             width: 41%;
             height: 3px;
             background-color: #554535;
             top: 0;
-           
         }
-        &::after{
-            content: '';
+        &::after {
+            content: "";
             position: absolute;
             width: 41%;
             height: 3px;
             background-color: #554535;
             bottom: -12px;
             right: 27px;
-         } 
-       
+        }
     }
-    .news__review_foto{
+    .news__review_foto {
         float: left;
         padding-right: 20px;
         width: 350px;
     }
-  
 }
-.additional__item_next{
-    .news__title{
-        font-family:'handshoptypography';
-       font-size: 37px;
-       margin-bottom: 0;
+.additional__item_next {
+    .news__title {
+        font-family: "handshoptypography";
+        font-size: 37px;
+        margin-bottom: 0;
     }
-    .news__subtitle{
+    .news__subtitle {
         font-size: 35px;
         text-align: center;
-        span{
+        span {
             font-size: 20px;
             margin: 0;
             padding: 0;
@@ -301,256 +295,717 @@ body{
             margin-bottom: 10px;
         }
     }
-    img{
+    img {
         width: 290px;
     }
 }
-.additional_news_bar_next{
-    .news__subtitle{
+.additional_news_bar_next {
+    .news__subtitle {
         font-size: 34px;
     }
-    .news_image-star{
+    .news_image-star {
         width: 30px;
     }
-    .news__subtitle{
+    .news__subtitle {
         position: relative;
-        &::before{
-            content:'';
+        &::before {
+            content: "";
             position: absolute;
             width: 100%;
             height: 5px;
             background-color: #554535;
-            top:-90px;
-           
+            top: -90px;
         }
-        &::after{
-            content: '';
+        &::after {
+            content: "";
             position: absolute;
             width: 100%;
             height: 3px;
             background-color: #554535;
             bottom: 123px;
             right: 27px;
-         } 
+        }
+    }
+}
+//section
+.page-next {
+}
+.page-next-news {
+    display: flex;
+    padding-bottom: 50px;
+}
+.page-next_item {
+    flex-basis: 340px;
+    flex-grow: 1;
+    margin-right: 10px;
+    &:nth-of-type(2) {
+        flex-grow: 60;
+    }
+    &:nth-of-type(3) {
+        margin-right: 0;
+    }
+    .news__title {
+        font-size: 67px;
+    }
+    .news__text p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .news__subtitle {
+        text-transform: uppercase;
+        font-size: 27px;
+        text-align: center;
+    }
+    .page_image {
+        width: 400px;
+        float: left;
+        padding-right: 15px;
+    }
+    .page_image_top {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .special_title {
+        color: #e3cea1;
+        padding: 20px;
+        background-color: #554535;
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+
+    .page_image_next {
+        float: right;
+    }
+    .page_subtitle_item {
+        position: relative;
+        font-size: 40px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            top: -10px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            bottom: -10px;
+        }
     }
 }
 
-@media (max-width:1302px){
-    .news_review_next{
-        .news__review_foto{
-            display: block;
-           margin-left: auto;
-           margin-right: auto;
-           margin-bottom: 30px;
-           float: none;
+.news_inventions {
+    // position: relative;
+    .news__title {
+        font-size: 65px;
+        position: relative;
+        display: flex;
+        margin-top: 50px;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background-color: #554535;
+            top: -26px;
         }
-        .news__subtitle{
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            bottom: 167px;
+        }
+    }
+    p {
+        padding-left: 12px;
+    }
+
+    .inventions_image {
+        display: block;
+        float: right;
+        border-radius: 9%;
+        shape-outside: circle();
+        position: relative;
+        width: 467px;
+        padding-left: 39px;
+        margin-left: 29px;
+    }
+    .inventions_star {
+        position: absolute;
+        right: 25px;
+        bottom: -60px;
+    }
+    .inventions_text {
+        margin-bottom: 40px;
+    }
+    .news__subtitle {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            top: -10px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            bottom: -10px;
+        }
+    }
+}
+.news_column-three {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .news__subtitle {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            top: -10px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #554535;
+            bottom: -10px;
+        }
+    }
+}
+.page-next_item {
+    .title_size {
+        font-size: 30px;
+    }
+}
+.colomn_three_image {
+    display: block;
+    margin: 0 auto;
+}
+
+.special_image {
+    width: 116px;
+    position: relative;
+    left: 33px;
+    top: 47px;
+}
+.element {
+    shape-outside: circle();
+    float: left;
+    width: 200px;
+    height: 323px;
+}
+
+.page_news_special {
+    border: 3px solid #554535;
+    position: relative;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 17px;
+    &::before {
+        content: "";
+        position: absolute;
+        border: 2px solid #554535;
+        top: 5px;
+        left: 8px;
+        width: 94%;
+        padding-bottom: 4px;
+        height: 97%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1302px) {
+    .news_review_next {
+        .news__review_foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            float: none;
+        }
+        .news__subtitle {
             display: inline-block;
-            &:before{
+            &:before {
                 width: 100%;
                 left: 0;
             }
-            &::after{
+            &::after {
                 width: 100%;
                 left: 0;
             }
         }
     }
 }
-@media (max-width:1240px){
-    .title{
-        &__item{
-            &:nth-last-of-type(2){
+
+@media (max-width: 1280px) {
+    .page-next-news {
+        flex-wrap: wrap;
+        .page-next_item {
+            flex-basis: initial;
+            // flex-grow: 0;
+            &:nth-of-type(1) {
+                width: 49%;
+            }
+            &:nth-of-type(2) {
+                order: 3;
+                flex-grow: 0;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                // flex-basis: 340px;
+                // flex-grow: 1;
+            }
+            &:nth-of-type(3) {
+                flex-grow: 0;
+                width: 50%;
+            }
+        }
+    }
+    .news_inventions {
+        .news__title {
+            &::before,
+            &::after {
+                width: 97%;
+            }
+        }
+    }
+    .page_news_special {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            border: 2px solid #554535;
+            top: 6px;
+            left: 7px;
+            width: 96%;
+            padding-bottom: 4px;
+            height: 96%;
+            border-radius: 5px;
+        }
+    }
+    .colomn_three_image {
+        margin-bottom: 50px;
+    }
+    .news_inventions {
+        .news__title {
+            font-size: 56px;
+            &::after {
+                bottom: 91px;
+            }
+            &::before {
+                top: -35px;
+            }
+        }
+    }
+    .news_inventions {
+        .inventions_star {
+            right: -140px;
+            bottom: -90px;
+        }
+    }
+}
+
+@media (max-width: 1240px) {
+    .title {
+        &__item {
+            &:nth-last-of-type(2) {
                 font-size: 8vw;
             }
         }
     }
-    .news_additional{
+    .news_additional {
         flex-wrap: wrap;
-        .news_additional__item{
+        .news_additional__item {
             width: 100%;
             padding: 0;
         }
     }
-    .news_main_title{
+    .news_main_title {
         width: 100%;
     }
-    .news_main{
+    .news_main {
         width: initial;
     }
 }
-@media (max-width:900px){
-    .title{
+@media (max-width: 1105px) {
+    .news_inventions .news__title::after {
+        bottom: 156px;
+    }
+    .page_news_special:before {
+        content: "";
+        position: absolute;
+        border: 2px solid #554535;
+        top: 6px;
+        left: 5px;
+        width: 96%;
+        padding-bottom: 4px;
+        height: 97%;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 1040px) {
+    .page-next-news {
+        .page-next_item {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            &:nth-of-type(1) {
+                order: 2;
+            }
+            &:nth-of-type(2) {
+                order: 1;
+            }
+            &:nth-of-type(3) {
+                order: 3;
+            }
+        }
+    }
+    .news_inventions {
+        .news__title::after {
+            bottom: 157px;
+        }
+    }
+    .news_inventions {
+        .inventions_image {
+            width: 460px;
+        }
+    }
+}
+@media (max-width: 920px) {
+    .page-next-news {
+        .page-next_item {
+            &:nth-of-type(3) {
+                width: 70%;
+            }
+        }
+    }
+    .page_news_special:before {
+        content: "";
+        position: absolute;
+        border: 2px solid #554535;
+        top: 7px;
+        left: 7px;
+        width: 97%;
+        padding-bottom: 4px;
+        height: 95%;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 900px) {
+    .title {
         flex-direction: column;
         text-align: center;
-        
-        &__item{
+
+        &__item {
             flex-basis: initial;
-            &:nth-last-of-type(2){
+            &:nth-last-of-type(2) {
                 font-size: 60px;
             }
         }
     }
-    .title__name-page{
+    .title__name-page {
         flex-wrap: wrap;
         // text-align: center;
-        .name-page__item{
-           
-          &:nth-of-type(2){
-              order: 3;
-          }
-          &:nth-of-type(2){
-            width: 100%;
-            text-align: center;
+        .name-page__item {
+            &:nth-of-type(2) {
+                order: 3;
+            }
+            &:nth-of-type(2) {
+                width: 100%;
+                text-align: center;
+            }
         }
-       } 
     }
-    .news__wrapper{
+    .news__wrapper {
         flex-wrap: wrap;
-        .news_main{
+        .news_main {
             width: 100%;
             margin-bottom: 30px;
             padding-right: 0;
         }
     }
-   
-    
 }
-@media(max-width:680px){
-    .news_review_next{
-        .news__review_foto{
-            all:initial;
-            display: block;
-           margin-left: auto;
-           margin-right: auto;
-           margin-bottom: 30px;
+@media (max-width: 810px) {
+    .news_inventions .inventions_star {
+        right: -38px;
+        bottom: -13px;
+    }
+    .news_inventions .news__title {
+        font-size: 37px;
+    }
+    .news_inventions .news__title::after {
+        bottom: 110px;
+    }
+    .page-next_item .text_fermers {
+        margin-bottom: 150px;
+    }
+    .news_inventions .inventions_star {
+        right: 33px;
+        bottom: -110px;
+    }
+    .news_inventions .news__title {
+        &::after {
+            bottom: 90px;
         }
-        .news__subtitle{
+        &::before {
+            top: -60px;
+        }
+    }
+    .header {
+        padding-top: 35px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 710px) {
+    .page-next_item .page_subtitle_item::before {
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+    .news_review_next {
+        .news__review_foto {
+            all: initial;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        .news__subtitle {
             display: inline-block;
-            &::before{
-                content: '';
+            &::before {
+                content: "";
                 position: absolute;
                 width: 100%;
                 height: 3px;
                 background-color: #554535;
                 bottom: -12px;
-              
             }
-            &::after{
-                content: '';
+            &::after {
+                content: "";
                 position: absolute;
                 width: 100%;
                 height: 3px;
                 background-color: #554535;
                 bottom: -12px;
                 left: 0;
-              
             }
         }
     }
-    .news_main_title{
+    .news_main_title {
         font-size: 60px;
-    } 
+    }
+    .page_news_special:before {
+        content: "";
+        position: absolute;
+        border: 2px solid #554535;
+        top: 7px;
+        left: 4px;
+        width: 97%;
+        padding-bottom: 4px;
+        height: 96%;
+        border-radius: 5px;
+    }
+    .page-next_item .news__title {
+        font-size: 55px;
+    }
+    .news_inventions .news__title::after {
+        display: none;
+    }
+    .news_inventions .inventions_image {
+        width: 100%;
+        shape-outside: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .page-next_item .page_image {
+        margin-bottom: 20px;
+    }
 }
-@media(max-width:520px){
-    .news_review{
-        .news__title{
+@media (max-width: 520px) {
+    .news_review {
+        .news__title {
             font-size: 35px;
-            &::after{
+            &::after {
                 bottom: 97px;
             }
         }
-        .news__subtitle{
+        .news__subtitle {
             font-size: 19px;
-            .news_image-star{
+            .news_image-star {
                 width: 16px;
             }
         }
     }
-    .additional_news_bar_next{
-        .news__title{
+    .additional_news_bar_next {
+        .news__title {
             font-size: 35px;
-          
         }
-        .news__subtitle{
+        .news__subtitle {
             font-size: 19px;
-            &::after{
-               top:-67px;
-               height: 5px;
+            &::after {
+                top: -67px;
+                height: 5px;
             }
-            &::before{
-              top:-60px;
-              height: 2px;
+            &::before {
+                top: -60px;
+                height: 2px;
             }
-            .news_image-star{
+            .news_image-star {
                 width: 16px;
             }
         }
     }
-    .news_bar{
-        img{
-           max-width: 100%;
-           padding-left: 10px;
-           padding-right: 10px;
-        }
-    }
-    .news_review_next{
-        .news__review_foto{
-            max-width: 100%;
-        }
-    }
-    .news_main_title{
-        font-size: 45px;
-    } 
-    .additional__item_next{
-        .next__text{
+    .news_bar {
+        img {
             max-width: 100%;
             padding-left: 10px;
             padding-right: 10px;
         }
-        
+    }
+    .news_review_next {
+        .news__review_foto {
+            max-width: 100%;
+        }
+    }
+    .news_main_title {
+        font-size: 45px;
+    }
+    .additional__item_next {
+        .next__text {
+            max-width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 }
-@media (max-width:430px){
-    .header{
+@media (max-width: 460px) {
+    .page_news_special:before {
+        content: "";
+        position: absolute;
+        border: 2px solid #554535;
+        top: 5px;
+        left: 4px;
+        width: 96%;
+        padding-bottom: 4px;
+        height: 98%;
+        border-radius: 5px;
+    }
+    .page-next-news {
+        width: 100%;
+    }
+    .page-next_item .news__title {
+        font-size: 40px;
+    }
+    .page-next_item .page_image {
+        margin-right: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+    .page_news_special {
+        width: 90%;
+    }
+    .page_news_special:before {
+        height: 97%;
+    }
+    .page-next-news .page-next_item:nth-of-type(3) {
+        width: 96%;
+    }
+    .news_inventions .inventions_star {
+        left: 0px;
+        top: 96px;
+        width: 68px;
+    }
+}
+@media (max-width: 430px) {
+    .header {
         padding-top: 50px;
     }
-    .name-page__item{
+    .name-page__item {
         width: 100%;
         text-align: center;
     }
-    .news_main{
-        .news_image{
+    .news_main {
+        .news_image {
             width: 100%;
-            img{
+            img {
                 padding: 0;
             }
         }
     }
-    .news_review{
-        .news_image-camera{
-            
+    .news_review {
+        .news_image-camera {
             display: block;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 20px;
             float: none;
-            
         }
     }
-    .additional_title{
+    .additional_title {
         font-size: 30px;
     }
-    .additional_image{
+    .additional_image {
         max-width: 260px;
     }
-    
+    .colomn_three_image {
+        max-width: 100%;
+    }
+    .page-next_item .news__title {
+        font-size: 29px;
+    }
+    .page-next_item .news__subtitle {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .page-next_item .page_image_next {
+        padding-left: 10px;
+    }
+    .page-next_item .text_fermers {
+        margin-bottom: 76px;
+    }
+    .news_inventions .news__title::before {
+        top: -35px;
+    }
 }
-@media (max-width:340px){
-    .news_review{
-        .news__title
-        &::after{
+@media (max-width: 340px) {
+    .news_review {
+        .news__title &::after {
             bottom: 137px;
         }
-    } 
+    }
+    .page_image_top {
+        max-width: 100%;
+    }
 }
