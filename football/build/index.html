@@ -14,16 +14,20 @@
     <div class="container">
       <div class="wrapper">
         <nav class="header-menu">
+          <div class="gamburger-menu">
+            <span></span>
+        </div>
           <div class="logo">
             <a href=""><img src="images/logo.png" alt=""></a> 
           </div>
-          <ul class="header-menu-list">
+          
+          <ul class="header-menu-list mobile_menu">
             <li class="menu-item-one">
-                <a href="">Украина
+                      Украина
                   <svg class="icon-menu">
                     <use xlink:href="images/sprite/sprite.svg#arrow-down"></use>
                   </svg>
-              </a>
+             
               <ul class="dropdown-menu menu-one">
                 <li><a href="">Сборная 1</a></li>
                 <li><a href="">Примьер-Лига</a></li>
@@ -33,11 +37,11 @@
               </ul>
             </li>
             <li class="menu-item-two">
-              <a href="">Страны
+              Страны
                 <svg class="icon-menu">
                   <use xlink:href="images/sprite/sprite.svg#arrow-down"></use>
                 </svg>
-              </a>
+             
               <ul class="dropdown-menu menu-two">
                 <li><a href="">Сборная 2</a></li>
                 <li><a href="">Примьер-Лига</a></li>
@@ -47,11 +51,11 @@
               </ul>
             </li>
             <li class="menu-item-three">
-              <a href="">Турниры
+              Турниры
                 <svg class="icon-menu">
                   <use xlink:href="images/sprite/sprite.svg#arrow-down"></use>
                 </svg>
-              </a>
+             
               <ul class="dropdown-menu menu-three">
                 <li><a href="">Сборная 3</a></li>
                 <li><a href="">Примьер-Лига</a></li>
@@ -81,27 +85,32 @@
                 <li><a href="">Вторая лига</a></li>
               </ul>
             </li>
-            <ul class="list-item">
-              <li class="serch-icon">
-                <a href=""><svg class="icon-menu-us"><use xlink:href="#icon-search"></use></svg></a> 
-              </li>
-              <li class="users-icon">
-                <a href=""><svg class="icon-menu-us"><use xlink:href="#icon-user"></use></svg></a> 
-                </a>
-              </li>
-              <li class="language">
-                  <a href="">Рус
-                    <svg class="icon-menu">
-                      <use xlink:href="images/sprite/sprite.svg#arrow-down"></use>
-                    </svg>
-                  </a>
+          </ul>
+          <ul class="list-item">
+            <li class="serch-icon">
+              <a href=""><svg class="icon-menu-us"><use xlink:href="#icon-search"></use></svg></a> 
+            </li>
+            <li class="users-icon">
+              <a href=""><svg class="icon-menu-us"><use xlink:href="#icon-user"></use></svg></a> 
+              </a>
+            </li>
+            <li class="language">
+                Рус
+                  <svg class="icon-menu">
+                    <use xlink:href="images/sprite/sprite.svg#arrow-down"></use>
+                  </svg>
+                <a href="">
                   <ul class="dropdown-menu menu-lang">
-                    <li><a href="">Укр</a></li>
-                  </ul>
-              </li>
-            </ul>
+                  <li>
+                    <a href="">Укр</a>
+                  </li>
+                </ul>
+              </a>
+                
+            </li>
           </ul>
         </nav>
+ <!-- //breadcrumb        -->
         <ul class="breadcrumb">
           <li>
               <a href="#">UA-Футбол
@@ -112,6 +121,7 @@
           </li>
           <li class="active">Англия.Примьер-Лига</li>
         </ul>
+    <!-- //command slider     -->
         <div class="wrapper-slider">
           <div class="comm-arrow">
             <svg class="comm-prev">
@@ -121,9 +131,8 @@
               <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
             </svg>
           </div>
-       
         <div class="comm-result comm-slider">
-         
+        
           <a href="">
             <div class="com-result-item">
               <div class="com-res-wrapper">
@@ -154,7 +163,6 @@
           </a>
             <a href="">
             <div class="com-result-item">
-            
                   <div class="com-res-wrapper">
                     <div class="com-result-time">
                       Сегодня<span>12:00</span>
@@ -310,7 +318,7 @@
                  <div class="comand-item">
                     <svg class="icon-comm icon-com-mod">
                     <use xlink:href="images/sprite/sprite.svg#com-icon2"></use>
-                  </svg><span class="comm-name" > Барселона</span> 
+                  </svg><span class="comm-name"> Барселона</span> 
                  </div>
               </div>
               </div>
@@ -364,11 +372,21 @@
   <div class="wrapper">
     <div class="wrapper_content">
       <div class="wrap-cont">
+        <div class="arrow-news">
+          <svg class="prev">
+            <use xlink:href="images/sprite/sprite.svg#arrow-left"></use>
+          </svg>
+          <svg class="next">
+            <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
+          </svg>
+        </div> 
       <main class="news">
                   <div class="item_wrapper">
                       <div class="news-item-slider">
                         <span class="branch">Примьер лига Англии 1</span> <span class="news-time">20:45</span> <span class="news-date">12 декабря 2019</span>
-                        <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 1</h1>
+                        <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 1
+                          <span class="news-mess-number"><svg class="news-mess"><use xlink:href="#icon-mess"></use></svg> 183</span>
+                        </h1>
                         <div class="news-item-subtitle">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</div> 
                       </div>
                       
@@ -378,7 +396,9 @@
                   <div class="item_wrapper">
                     <div class="news-item-slider">
                       <span class="branch">Примьер лига Англии 2</span> <span class="news-time">20:45</span> <span class="news-date">12 декабря 2019</span>
-                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 2</h1>
+                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 2
+                        <span class="news-mess-number"><svg class="news-mess"><use xlink:href="#icon-mess"></use></svg> 183</span>
+                      </h1>
                       <div class="news-item-subtitle">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</div> 
                     </div>
                       
@@ -388,7 +408,9 @@
                   <div class="item_wrapper">
                     <div class="news-item-slider">
                       <span class="branch">Примьер лига Англии 3</span> <span class="news-time">20:45</span> <span class="news-date">12 декабря 2019</span>
-                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 3</h1>
+                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 3
+                        <span class="news-mess-number"><svg class="news-mess"><use xlink:href="#icon-mess"></use></svg> 183</span>
+                      </h1>
                       <div class="news-item-subtitle">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</div> 
                     </div>
                       
@@ -398,7 +420,9 @@
                   <div class="item_wrapper">
                     <div class="news-item-slider">
                       <span class="branch">Примьер лига Англии 4</span> <span class="news-time">20:45</span> <span class="news-date">12 декабря 2019</span>
-                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 4</h1>
+                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 4
+                        <span class="news-mess-number"><svg class="news-mess"><use xlink:href="#icon-mess"></use></svg> 183</span>
+                      </h1>
                       <div class="news-item-subtitle">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</div> 
                     </div>
                       
@@ -408,30 +432,27 @@
                   <div class="item_wrapper">
                     <div class="news-item-slider">
                       <span class="branch">Примьер лига Англии 5</span> <span class="news-time">20:45</span> <span class="news-date">12 декабря 2019</span>
-                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 5</h1>
+                      <h1 class="news-item-title">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро 5
+                        <span class="news-mess-number"><svg class="news-mess"><use xlink:href="#icon-mess"></use></svg> 183</span>
+                      </h1>
                       <div class="news-item-subtitle">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</div> 
                     </div>
                       
                       <img class="header_slider_foto" src="images/section-news5.jpg" alt="">
                   </div>
       </main>
-      
-            <div class="icon-test">
-              <svg class="prev">
-                <use xlink:href="images/sprite/sprite.svg#arrow-left"></use>
-              </svg>
-              <svg class="next">
-                <use xlink:href="images/sprite/sprite.svg#arrow-right"></use>
-              </svg>
-            </div>
-
             <div class="other-news">
               <a href="">
                 <div class="other-news-item">
-                    <div class="other-news-foto"><img src="images/news2-1.png" alt=""></div>
+                    <div class="other-news-foto">
+                      <img src="images/news2-1.png" alt="">
+                    </div>
+
                     <div class="other-news-text">
-                      <span class="time">Вчера, 15:45</span>
-                      <span class="branch">Примьер Лига Англии</span>
+                      <div class="other-news-mobile">
+                        <span class="time">Вчера, 15:45</span>
+                        <span class="branch">Примьер Лига Англии</span>
+                    </div>
                       <div class="other-news-title">Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалификации
                         <span class="coment">
                           <svg class="comment_icon">
@@ -444,18 +465,17 @@
                     </div>
                 </div>
               </a>
-  
-           
               <div class="other-news-time-date">
                 Вчера, 11 сентября 2018, среда
               </div>
-
-            <a href="">
+              <a href="">
               <div class="other-news-item">
                   <div class="other-news-foto"><img src="images/news2-1.png" alt=""></div>
                   <div class="other-news-text">
-                    <span class="time">Вчера, 15:45</span>
-                    <span class="branch">Примьер Лига Англии</span>
+                    <div class="other-news-mobile">
+                      <span class="time">Вчера, 15:45</span>
+                      <span class="branch">Примьер Лига Англии</span>
+                    </div>
                     <div class="other-news-title">Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалификации
                       <span class="coment">
                         <svg class="comment_icon">
@@ -467,10 +487,10 @@
 
                   </div>
               </div>
-            </a>
+             </a>
           </div>
   </div> 
-      <!-- sidebar -->
+       <!-- sidebar  -->
       <aside class="sidebar">
               <h1>Новости Футбола</h1>
             <a href="">
@@ -498,7 +518,7 @@
             <h2 class="sidebar-title">Кардифф Сити не будет перечислять Нанту всю сумму за трансфер погибшего Сала
               <span class="coment">
                 <svg class="comment_icon">
-                  <use xlink:href="images/sprite/sprite.svg#side-comment"></use>
+                  <use xlink:href="#icon-mess"></use>
                 </svg> 3000
               </span>
               </h2>
@@ -587,8 +607,8 @@
     </div>
     
   </div>
-</section>
-<footer>
+</section> 
+<!-- <footer> -->
   <div class="container bg_footer">
       <div class="wrapper">
         <div class="footer">
@@ -625,7 +645,7 @@
                 </ul>
             </div>
         
-              <div class="footer-item">
+              <div class="footer-item footer-item-mobile">
                 <h1>Турниры</h1>
                 <ul class="footer-list">
                   <li><a href="">Премьер - Лига</a></li>
@@ -635,7 +655,7 @@
                 </ul>
               </div>
 
-            <div class="footer-item">
+            <div class="footer-item footer-item-mobile">
               <h1>Разное</h1>
               <ul class="footer-list">
                 <li><a href="">Премьер - Лига</a></li>
@@ -646,7 +666,7 @@
             </div>
 
        </div>
-       <div class="footer-other">
+       <div class="footer-other"> 
           <div class="footer-other-item">
             <div class="social-item">
               <div class="social">
@@ -657,15 +677,16 @@
               </div>
             </div>
           </div>
-          <div class="footer-other-item">
+          <div class="footer-other-item footer-other-item-size">
             <ul class="adwert">
               <li><a href="">О проекте</a></li>
               <li><a href="">Реклама на сайте</a></li>
               <li><a href="">RSS</a></li>
               <li><a href="">Политика Конфиденциальности</a></li>
+              <li class="adwert-item"><a href="">ПК версия</a></li>
             </ul>
           </div>
-          <div class="footer-other-item">
+          <div class="footer-other-item footer-other-item-mobile">
             <a href="">Мобильная версия</a>
           </div>
        </div>
@@ -688,6 +709,10 @@
             Наша апликуха на сторах:
           </div>
        </div>
+       <ul class="footer-download">
+            <li><a href=""><a href=""><svg class="footer-icon"><use xlink:href="#icon-footer"></use></svg></a> </a></li>
+            <li><a href=""><a href=""><svg class="footer-icon"><use xlink:href="#icon-footer2"></use></svg></a> </a></li>
+       </ul>
       </div>
     </div>
 </footer>
@@ -854,18 +879,60 @@ C480.224,136.96,497.728,118.496,512,97.248z"/>
         <g>
         </g>
       </symbol>
-      <symbol id="icon-mess" viewBox="0 0 11 11">
+      <symbol id="icon-mess" viewBox="0 0 512 512">
+        <path d="m456.835938 0h-401.667969c-30.421875 0-55.167969 24.746094-55.167969 55.167969v294.238281c0 30.417969 24.746094 55.164062 55.167969 55.164062h127.296875l42.15625 84.316407c7.34375 14.6875 18.78125 23.113281 31.378906 23.113281s24.035156-8.425781 31.378906-23.113281l42.160156-84.316407h127.296876c30.417968 0 55.164062-24.746093 55.164062-55.164062v-294.238281c0-30.421875-24.746094-55.167969-55.164062-55.167969zm25.164062 349.40625c0 13.875-11.289062 25.164062-25.164062 25.164062h-136.566407c-5.683593 0-10.875 3.210938-13.417969 8.292969l-46.304687 92.605469c-1.867187 3.734375-3.621094 5.570312-4.546875 6.273438-.925781-.703126-2.679688-2.539063-4.546875-6.273438l-46.304687-92.605469c-2.539063-5.082031-7.734376-8.292969-13.414063-8.292969h-136.566406c-13.878907 0-25.167969-11.289062-25.167969-25.164062v-294.238281c0-13.878907 11.289062-25.167969 25.167969-25.167969h401.667969c13.875 0 25.164062 11.289062 25.164062 25.167969zm0 0"/>
+      </symbol>
+      <symbol id="icon-footer" viewBox="0 0 135 40">
         <defs>
           <style>
             .cls-1 {
-              fill: none;
-              stroke: #076ee7;
-              stroke-width: 1px;
+              fill: #a6a6a6;
+            }
+      
+            .cls-1, .cls-2, .cls-3 {
               fill-rule: evenodd;
+            }
+      
+            .cls-3, .cls-4 {
+              fill: #fff;
+            }
+      
+            .cls-4 {
+              font-size: 12px;
+              font-family: SFUIDisplay;
             }
           </style>
         </defs>
-        <path id="Combined_Shape" data-name="Combined Shape" class="cls-1" d="M1004,512h8a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-8a1,1,0,0,1-1-1v-6A1,1,0,0,1,1004,512Zm2,7,4.5,3,0.5-3h-5Z" transform="translate(-1002.5 -511.5)"/>
+        <g id="Download_on_the_App_Store_Badge_VN_RGB_blk_100217">
+          <g id="Group">
+            <g id="Group-2" data-name="Group">
+              <path id="Shape" class="cls-1" d="M1682.34,2278H1572.15c-0.34,0-.67.01-1,0.01a15.747,15.747,0,0,0-2.17.18,7.345,7.345,0,0,0-2.06.63,6.786,6.786,0,0,0-1.76,1.18,6.408,6.408,0,0,0-1.27,1.62,6.269,6.269,0,0,0-.68,1.9,11.2,11.2,0,0,0-.19,2c-0.01.31-.01,0.62-0.02,0.92v23.12c0.01,0.31.01,0.61,0.02,0.92a11.2,11.2,0,0,0,.19,2,6.327,6.327,0,0,0,.68,1.91,6.54,6.54,0,0,0,1.27,1.61,6.786,6.786,0,0,0,1.76,1.18,7.689,7.689,0,0,0,2.06.63,15.747,15.747,0,0,0,2.17.18c0.33,0,.66.01,1,0.01h111.36c0.33,0,.67-0.01,1-0.01a15.747,15.747,0,0,0,2.17-.18,7.758,7.758,0,0,0,2.07-.63,6.84,6.84,0,0,0,3.03-2.79,6.3,6.3,0,0,0,.67-1.91,12.213,12.213,0,0,0,.2-2c0.01-.31.01-0.61,0.01-0.92v-23.12c0-.3,0-0.61-0.01-0.92a12.213,12.213,0,0,0-.2-2,6.247,6.247,0,0,0-.67-1.9,6.751,6.751,0,0,0-3.03-2.8,7.758,7.758,0,0,0-2.07-.63,15.747,15.747,0,0,0-2.17-.18c-0.33,0-.67-0.01-1-0.01h-1.17Z" transform="translate(-1563 -2278)"/>
+              <path id="Shape-2" data-name="Shape" class="cls-2" d="M1572.09,2317.12c-0.33,0-.66,0-0.98-0.01a13.775,13.775,0,0,1-2.03-.16,6.59,6.59,0,0,1-1.8-.55,5.783,5.783,0,0,1-1.51-1.01,5.317,5.317,0,0,1-1.11-1.4,5.233,5.233,0,0,1-.59-1.66,11.725,11.725,0,0,1-.18-1.87c-0.01-.21-0.02-0.92-0.02-0.92v-23.1s0.01-.69.02-0.89a11.725,11.725,0,0,1,.18-1.87,5.482,5.482,0,0,1,1.69-3.06,6.361,6.361,0,0,1,1.52-1.03,6.983,6.983,0,0,1,1.79-.54,14.019,14.019,0,0,1,2.04-.16l0.98-.02h111.48l0.99,0.02a13.64,13.64,0,0,1,2.02.16,6.657,6.657,0,0,1,1.81.55,5.81,5.81,0,0,1,2.62,2.42,5.41,5.41,0,0,1,.58,1.65,11.861,11.861,0,0,1,.19,1.88v0.89c0.01,0.38.01,0.74,0.01,1.1v20.92c0,0.37,0,.72-0.01,1.08v0.93a11.49,11.49,0,0,1-.19,1.85,5.527,5.527,0,0,1-.58,1.67,5.669,5.669,0,0,1-1.1,1.39,6.045,6.045,0,0,1-1.52,1.02,6.657,6.657,0,0,1-1.81.55,13.775,13.775,0,0,1-2.03.16c-0.32.01-.65,0.01-0.97,0.01l-1.18.01Z" transform="translate(-1563 -2278)"/>
+            </g>
+            <g id="_Group_">
+              <g id="_Group_2">
+                <g id="_Group_3">
+                  <path id="_Path_" class="cls-3" d="M1587.77,2298.3a4.931,4.931,0,0,1,2.36-4.15,5.08,5.08,0,0,0-4-2.16c-1.68-.18-3.3,1.01-4.16,1.01s-2.19-.99-3.61-0.96a5.306,5.306,0,0,0-4.47,2.73c-1.93,3.34-.49,8.26,1.36,10.97,0.93,1.33,2.01,2.81,3.43,2.75,1.39-.05,1.9-0.88,3.58-0.88,1.66,0,2.14.88,3.59,0.85,1.49-.02,2.43-1.33,3.32-2.67a10.847,10.847,0,0,0,1.52-3.09,4.779,4.779,0,0,1-2.92-4.4h0Z" transform="translate(-1563 -2278)"/>
+                  <path id="_Path_2" class="cls-3" d="M1585.04,2290.21a4.86,4.86,0,0,0,1.11-3.49,4.965,4.965,0,0,0-3.21,1.66,4.63,4.63,0,0,0-1.14,3.36,4.11,4.11,0,0,0,3.24-1.53h0Z" transform="translate(-1563 -2278)"/>
+                </g>
+              </g>
+              <g id="Group-3" data-name="Group">
+                <path id="Shape-3" data-name="Shape" class="cls-3" d="M1605.3,2305.14h-4.73l-1.14,3.36h-2l4.48-12.42h2.08l4.49,12.42h-2.04Zm-4.24-1.55h3.75l-1.85-5.45h-0.05Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-4" data-name="Shape" class="cls-3" d="M1618.16,2303.97c0,2.81-1.51,4.62-3.78,4.62a3.078,3.078,0,0,1-2.85-1.58h-0.04v4.48h-1.86v-12.05h1.8v1.51h0.03a3.206,3.206,0,0,1,2.89-1.6C1616.64,2299.35,1618.16,2301.16,1618.16,2303.97Zm-1.91,0c0-1.83-.95-3.04-2.39-3.04-1.42,0-2.38,1.23-2.38,3.04s0.96,3.05,2.38,3.05C1615.3,2307.02,1616.25,2305.82,1616.25,2303.97Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-5" data-name="Shape" class="cls-3" d="M1628.12,2303.97c0,2.81-1.5,4.62-3.77,4.62a3.068,3.068,0,0,1-2.85-1.58h-0.05v4.48h-1.85v-12.05h1.79v1.51h0.04a3.19,3.19,0,0,1,2.88-1.6C1626.61,2299.35,1628.12,2301.16,1628.12,2303.97Zm-1.91,0c0-1.83-.94-3.04-2.39-3.04-1.42,0-2.37,1.23-2.37,3.04s0.95,3.05,2.37,3.05c1.45,0,2.39-1.2,2.39-3.05h0Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-6" data-name="Shape" class="cls-3" d="M1634.71,2305.04c0.14,1.23,1.33,2.04,2.97,2.04,1.57,0,2.69-.81,2.69-1.92,0-.97-0.68-1.54-2.29-1.94l-1.61-.39c-2.28-.55-3.33-1.61-3.33-3.34,0-2.15,1.86-3.62,4.51-3.62,2.63,0,4.43,1.47,4.49,3.62h-1.88c-0.11-1.24-1.14-1.99-2.63-1.99s-2.52.75-2.52,1.86c0,0.87.65,1.39,2.25,1.79l1.37,0.33c2.55,0.6,3.61,1.63,3.61,3.44,0,2.33-1.86,3.78-4.8,3.78-2.75,0-4.61-1.42-4.73-3.66h1.9Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-7" data-name="Shape" class="cls-3" d="M1646.35,2297.3v2.14h1.72v1.47h-1.72v4.99a0.972,0.972,0,0,0,1.1,1.14c0.2,0,.41-0.02.61-0.04v1.46a5.123,5.123,0,0,1-1.03.09c-1.84,0-2.55-.69-2.55-2.45v-5.19h-1.32v-1.47h1.32v-2.14h1.87Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-8" data-name="Shape" class="cls-3" d="M1649.06,2303.97c0-2.85,1.68-4.64,4.3-4.64s4.29,1.79,4.29,4.64-1.66,4.64-4.29,4.64S1649.06,2306.83,1649.06,2303.97Zm6.7,0c0-1.95-.9-3.11-2.4-3.11s-2.4,1.16-2.4,3.11,0.89,3.11,2.4,3.11,2.4-1.15,2.4-3.11h0Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-9" data-name="Shape" class="cls-3" d="M1659.19,2299.44h1.77v1.54H1661a2.162,2.162,0,0,1,2.18-1.63,2.789,2.789,0,0,1,.64.07v1.74a2.409,2.409,0,0,0-.84-0.12,1.88,1.88,0,0,0-1.94,2.09v5.37h-1.85v-9.06Z" transform="translate(-1563 -2278)"/>
+                <path id="Shape-10" data-name="Shape" class="cls-3" d="M1672.38,2305.84c-0.25,1.64-1.85,2.77-3.89,2.77-2.64,0-4.27-1.77-4.27-4.6s1.64-4.68,4.19-4.68c2.5,0,4.08,1.72,4.08,4.47v0.63h-6.4v0.12a2.356,2.356,0,0,0,2.44,2.56,2.053,2.053,0,0,0,2.09-1.27h1.76Zm-6.28-2.71h4.53a2.2,2.2,0,0,0-.61-1.63,2.136,2.136,0,0,0-1.61-.66,2.227,2.227,0,0,0-1.63.67,2.254,2.254,0,0,0-.68,1.62h0Z" transform="translate(-1563 -2278)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="Завантажити_з" data-name="Завантажити з" class="cls-4" x="40" y="14.002">Завантажити з</text>
+      </symbol>
+      <symbol id="icon-footer2" viewBox="0 0 152 59">
+        <image id="google-play-badge" width="152" height="59" xlink:href="data:img/png;base64,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"/>
       </symbol>
     </svg>
 
