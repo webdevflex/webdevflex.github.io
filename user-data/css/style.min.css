@@ -1,0 +1,34 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{background-color:#dbdbdb;font-family:Nunito,sans-serif}.container{max-width:1000px;margin:0 auto}h1{text-align:center;color:#7e7e7e}.header{width:410px;margin:70px auto 0;background-color:#fff;padding-top:20px;padding-bottom:50px;border-radius:20px}.form input{display:block;margin-left:auto;margin-right:auto;padding:15px 60px 15px 20px;margin-bottom:15px;border-radius:5px;border:1px solid #c8c8c8;-webkit-box-shadow:2px -3px 10px -4px rgba(34,60,80,.36);box-shadow:2px -3px 10px -4px rgba(34,60,80,.36);cursor:pointer;background-color:#eae7e7;outline:noen;font-size:18px}.form input:nth-last-of-type(1){margin-bottom:40px}.form .formBtn{margin:10px;border:none;font-family:Raleway,sans-serif;font-size:14px;text-transform:uppercase;color:#7e7e7e;width:170px;height:50px;cursor:pointer;background-color:#fed16f;border-radius:4px;-webkit-box-shadow:0 6px 0 0 #9c8500fd;box-shadow:0 6px 0 0 #9c8500fd;top:0;-webkit-transition:.3s ease-in-out;-o-transition:.3s ease-in-out;transition:.3s ease-in-out;position:relative;margin-left:auto;margin-right:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-weight:400}.formBtn:active{-webkit-box-shadow:0 0 0 0 #fee392;box-shadow:0 0 0 0 #fee392;top:6px}.formBtn{margin-top:40px;padding:10px 40px}
+
+
+.success{
+    background: #DBFAE0;
+    border: 1px solid #A2F2A0;
+    visibility: hidden;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  
+}
+.error{
+    background: #FAD8D8;
+				border: 1px solid #F29D9D;
+                visibility: hidden;
+                width: 200px;
+                height: 70px;
+                margin-bottom: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 12px;
+}
+
